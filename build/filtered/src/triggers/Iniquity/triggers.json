@@ -1,0 +1,246 @@
+[
+  {
+    "name":"Precalling",
+    "isFolder":"yes",
+    "children":[
+      {
+        "name":"ptprecall",
+        "multiline":"yes",
+        "multilineDelta":"1",
+        "fireLength":"99",
+        "patterns":[
+          {
+            "pattern":"(Party):",
+            "type":"startOfLine"
+          },
+          {
+            "pattern":"(\\S+) says, \"Afflicting (\\S+) with (.+)\\.\"$",
+            "type":"regex"
+          }
+        ],
+        "children":[
+          {
+            "name":"called hits",
+            "fireLength": "99",
+            "patterns":[
+              {
+                "pattern":"^(\\S+) swings .+ at (\\S+).+with all (\\S+) might\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^(\\S+) slashes into (\\S+).+with .+\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^Lightning-quick, (\\S+) jabs (\\S+).+with.+\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^Lunging forward with long, flashing claws extended, (\\S+) tears into (\\S+) ruthlessly\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^(\\S+) lunges at (\\S+) with long, flashing claws extended, tearing into.+ ruthlessly\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^(\\S+) rips into (\\S+) with massive, deadly claws\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^(\\S+) quickly pricks (\\S+) with \\S+ dirk\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^(\\S+) follows up the first attack with another, \\S+ dirk piercing the flesh of (\\S+)\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^(\\S+) snaps \\S+ wrist in a practiced motion, bringing .+ back around to strike at (\\S+) a second time\\.$",
+                "type":"regex" 
+              },
+              {
+                "pattern":"^(\\S+) sinks \\w+ fangs into (\\S+)'s body\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^(\\S+) points an imperious finger at (\\S+)\\.$",
+                "type":"regex"
+              },
+              {
+                "pattern":"^(\\S+) stares at (\\S+), giving \\S+ the evil eye\\.$",
+                "type":"regex"
+              }
+            ],
+            "children":[
+              {
+                "name":"called hits miss",
+                "patterns":[
+                  {
+                    "pattern":"misses",
+                    "type":"substring"
+                  },
+                  {
+                    "pattern":"parries the attack",
+                    "type":"substring"
+                  },
+                  {
+                    "pattern":"A reflection of",
+                    "type":"startOfLine"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name":"Generic",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Alchemist",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Apostate",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Bard",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Blademaster",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Depthswalker",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Druid",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Infernal",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Jester",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Magi",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Monk",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Occultist",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Paladin",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Pariah",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Psion",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Runewarden",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Sentinel",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Serpent",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Shaman",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Sylvan",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  },
+  {
+    "name":"Unnamable",
+    "isFolder":"yes",
+    "children":[
+
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Iniquity_example_script",
+    "eventHandlerList": [
+      "sysInstall"
+    ]
+  }
+]

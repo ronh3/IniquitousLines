@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+  <ScriptPackage>
+    <ScriptGroup isActive="yes" isFolder="yes">
+        
+      <name>Iniquity</name>
+      <script/>
+        
+      <packageName/>
+      
+      <eventHandlerList>
+</eventHandlerList>
+      <Script isActive="yes" isFolder="no">
+          
+        <name>Iniquity_example_script</name>
+        <script/>
+          
+        <packageName/>
+        
+        <eventHandlerList>
+          
+          <string>sysInstall</string>
+          
+        </eventHandlerList>
+        
+      </Script>
+      
+    </ScriptGroup>
+    
+  </ScriptPackage>
+  <AliasPackage>
+</AliasPackage>
+  <TimerPackage>
+</TimerPackage>
+  <TriggerPackage>
+    <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+        
+      <name>Iniquity</name>
+      <script/>
+        
+      <triggerType>0</triggerType>
+        
+      <conditonLineDelta>0</conditonLineDelta>
+        
+      <mStayOpen>0</mStayOpen>
+        
+      <mCommand/>
+        
+      <packageName/>
+        
+      <path>Iniquity</path>
+        
+      <mFgColor>#ff0000</mFgColor>
+        
+      <mBgColor>#ffff00</mBgColor>
+        
+      <mSoundFile/>
+        
+      <colorTriggerFgColor>#000000</colorTriggerFgColor>
+        
+      <colorTriggerBgColor>#000000</colorTriggerBgColor>
+      <regexCodeList>
+</regexCodeList>
+      <regexCodePropertyList>
+</regexCodePropertyList>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Precalling</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        <Trigger isActive="yes" isFolder="no" isMultiline="yes" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+            
+          <name>ptprecall</name>
+          <script>-- Placeholder module for trigger "ptprecall"
+return {}</script>
+            
+          <triggerType>0</triggerType>
+            
+          <conditonLineDelta>1</conditonLineDelta>
+            
+          <mStayOpen>99</mStayOpen>
+            
+          <mCommand/>
+            
+          <packageName/>
+            
+          <path>Iniquity</path>
+            
+          <mFgColor>#ff0000</mFgColor>
+            
+          <mBgColor>#ffff00</mBgColor>
+            
+          <mSoundFile/>
+            
+          <colorTriggerFgColor>#000000</colorTriggerFgColor>
+            
+          <colorTriggerBgColor>#000000</colorTriggerBgColor>
+          <regexCodeList>
+            
+            <string>(Party):</string>
+            
+            <string>(\S+) says, "Afflicting (\S+) with (.+)\."$</string>
+          </regexCodeList>
+          <regexCodePropertyList>
+            
+            <integer>2</integer>
+            
+            <integer>1</integer>
+          </regexCodePropertyList>
+          <Trigger isActive="yes" isFolder="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+              
+            <name>called hits</name>
+            <script>-- Placeholder module for trigger "Called Hits"
+return {}</script>
+              
+            <triggerType>0</triggerType>
+              
+            <conditonLineDelta>0</conditonLineDelta>
+              
+            <mStayOpen>99</mStayOpen>
+              
+            <mCommand/>
+              
+            <packageName/>
+              
+            <path>Iniquity</path>
+              
+            <mFgColor>#ff0000</mFgColor>
+              
+            <mBgColor>#ffff00</mBgColor>
+              
+            <mSoundFile/>
+              
+            <colorTriggerFgColor>#000000</colorTriggerFgColor>
+              
+            <colorTriggerBgColor>#000000</colorTriggerBgColor>
+            <regexCodeList>
+              
+              <string>^(\S+) swings .+ at (\S+).+with all (\S+) might\.$</string>
+              
+              <string>^(\S+) slashes into (\S+).+with .+\.$</string>
+              
+              <string>^Lightning-quick, (\S+) jabs (\S+).+with.+\.$</string>
+              
+              <string>^Lunging forward with long, flashing claws extended, (\S+) tears into (\S+) ruthlessly\.$</string>
+              
+              <string>^(\S+) lunges at (\S+) with long, flashing claws extended, tearing into.+ ruthlessly\.$</string>
+              
+              <string>^(\S+) rips into (\S+) with massive, deadly claws\.$</string>
+              
+              <string>^(\S+) quickly pricks (\S+) with \S+ dirk\.$</string>
+              
+              <string>^(\S+) follows up the first attack with another, \S+ dirk piercing the flesh of (\S+)\.$</string>
+              
+              <string>^(\S+) snaps \S+ wrist in a practiced motion, bringing .+ back around to strike at (\S+) a second time\.$</string>
+              
+              <string>^(\S+) sinks \w+ fangs into (\S+)'s body\.$</string>
+              
+              <string>^(\S+) points an imperious finger at (\S+)\.$</string>
+              
+              <string>^(\S+) stares at (\S+), giving \S+ the evil eye\.$</string>
+            </regexCodeList>
+            <regexCodePropertyList>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+              
+              <integer>1</integer>
+            </regexCodePropertyList>
+            <Trigger isActive="yes" isFolder="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+                
+              <name>called hits miss</name>
+              <script/>
+                
+              <triggerType>0</triggerType>
+                
+              <conditonLineDelta>0</conditonLineDelta>
+                
+              <mStayOpen>0</mStayOpen>
+                
+              <mCommand/>
+                
+              <packageName/>
+                
+              <path>Iniquity</path>
+                
+              <mFgColor>#ff0000</mFgColor>
+                
+              <mBgColor>#ffff00</mBgColor>
+                
+              <mSoundFile/>
+                
+              <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                
+              <colorTriggerBgColor>#000000</colorTriggerBgColor>
+              <regexCodeList>
+                
+                <string>misses</string>
+                
+                <string>parries the attack</string>
+                
+                <string>A reflection of</string>
+              </regexCodeList>
+              <regexCodePropertyList>
+                
+                <integer>0</integer>
+                
+                <integer>0</integer>
+                
+                <integer>2</integer>
+              </regexCodePropertyList>
+              
+            </Trigger>
+            
+          </Trigger>
+          
+        </Trigger>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Generic</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Alchemist</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Apostate</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Bard</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Blademaster</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Depthswalker</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Druid</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Infernal</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Jester</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Magi</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Monk</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Occultist</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Paladin</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Pariah</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Psion</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Runewarden</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Sentinel</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Serpent</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Shaman</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Sylvan</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      <TriggerGroup isActive="yes" isFolder="yes" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isColorTrigger="" isColorTriggerFg="" isColorTriggerBg="">
+          
+        <name>Unnamable</name>
+        <script/>
+          
+        <triggerType>0</triggerType>
+          
+        <conditonLineDelta>0</conditonLineDelta>
+          
+        <mStayOpen>0</mStayOpen>
+          
+        <mCommand/>
+          
+        <packageName/>
+          
+        <path>Iniquity</path>
+          
+        <mFgColor>#ff0000</mFgColor>
+          
+        <mBgColor>#ffff00</mBgColor>
+          
+        <mSoundFile/>
+          
+        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+          
+        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+        <regexCodeList>
+</regexCodeList>
+        <regexCodePropertyList>
+</regexCodePropertyList>
+        
+      </TriggerGroup>
+      
+    </TriggerGroup>
+    
+  </TriggerPackage>
+  <KeyPackage>
+</KeyPackage>
+</MudletPackage>
