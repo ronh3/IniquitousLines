@@ -1,6 +1,6 @@
 {
   "package": "Iniquity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tabethys",
   "title": "Combat triggers for 3p attacks",
   "outputFile": true

@@ -1,0 +1,42 @@
+[
+       {
+              "name": "Emanate Air",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^\\S+ sweeps .+ overhead and a great wind rises, picking up (\\S+) and casting \\S+ violently about before hurling \\S+ back to the ground\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Emanate Water",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^\\S+ makes the slightest flick with .+, and like the hand of some angered titan a great wave of water descends to smash down upon (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       }
+]

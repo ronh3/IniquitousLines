@@ -1,0 +1,222 @@
+[
+       {
+              "name": "Earth 1 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A loud crack emanates from the (.+) of (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Earth 2 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\S+) buckles under an unseen blow\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Earth 3 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\S+) hacks and coughs as a series of unpleasant cracks sound in grim staccato from \\S+ chest\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Air 1 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\S+) clutches at \\S+ throat as \\S+ gasps for breath\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Air 2 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A vicious wind rises, lashing and flaying at the body of (\\S+) to leave \\S+ sensitive and raw\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Air 3 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A dreadful pallor overcomes the features of (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Fire 2 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^The air between \\S+ and (\\S+) ripple with a haze of heat, and flames ignite upon the skin of \\S+\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Fire 3 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^Blisters burst open across the body of (\\S+) as \\S+ skin glows as if lit from within\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Water 1p 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A freezing wave of water materialises as if from nothing, crashing down upon (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Water 2 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A flurry of freezing icicles materialise to slash at (\\S+) in a shower of freezing daggers\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Water 3 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^\\S+ makes no motion or word, but (\\S+) turns shockingly pale and staggers as if struck\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       }
+]

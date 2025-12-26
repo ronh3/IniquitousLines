@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Badger(Addiction)",
+        "isActive": "yes",
+        "isFolder": "no",
+        "multiline": "no",
+        "multilineDelta": "0",
+        "matchall": "no",
+        "filter": "no",
+        "fireLength": "0",
+        "highlight": "no",
+        "highlightFG": "#ff0000",
+        "highlightBG": "#ffff00",
+        "patterns": [
+            {
+                "pattern": "^A grumpy badger carves great gouges in the flesh of (\\S+) with its claws\\.$",
+                "type": "regex"
+            }
+        ],
+        "script": "raiseEvent('iniquity', 'afflict', matches[2], 'addiction')"
+    },
+    {
+        "name": "Butterfly Dizziness",
+        "isActive": "yes",
+        "isFolder": "no",
+        "multiline": "no",
+        "multilineDelta": "0",
+        "matchall": "no",
+        "filter": "no",
+        "fireLength": "0",
+        "highlight": "no",
+        "highlightFG": "#ff0000",
+        "highlightBG": "#ffff00",
+        "patterns": [
+            {
+                "pattern": "^A gossamer butterfly goes into a frenzy of motion in front of the eyes of (\\S+), and \\S+ sways unsteadily\\.$",
+                "type": "regex"
+            }
+        ],
+        "script": "raiseEvent('iniquity', 'afflict', matches[2], 'dizziness')"
+    },
+    {
+        "name": "Fox HealthLeech",
+        "isActive": "yes",
+        "isFolder": "no",
+        "multiline": "no",
+        "multilineDelta": "0",
+        "matchall": "no",
+        "filter": "no",
+        "fireLength": "0",
+        "highlight": "no",
+        "highlightFG": "#ff0000",
+        "highlightBG": "#ffff00",
+        "patterns": [
+            {
+                "pattern": "^A cunning red fox leaps upon (\\S+), sinking its teeth into \\S+ skin\\.$",
+                "type": "regex"
+            }
+        ],
+        "script": "raiseEvent('iniquity', 'afflict', matches[2], 'healthleech')"
+    },
+    {
+        "name": "Raven",
+        "isActive": "yes",
+        "isFolder": "no",
+        "multiline": "no",
+        "multilineDelta": "0",
+        "matchall": "no",
+        "filter": "no",
+        "fireLength": "0",
+        "highlight": "no",
+        "highlightFG": "#ff0000",
+        "highlightBG": "#ffff00",
+        "patterns": [
+            {
+                "pattern": "^An ebony raven dives down upon (\\S+), pecking at \\S+ face and eyes\\.$",
+                "type": "regex"
+            }
+        ],
+        "script": "raiseEvent('iniquity', 'afflict', matches[2], 'sensitivity')"
+    },
+    {
+        "name": "Wolf Hallucinations",
+        "isActive": "yes",
+        "isFolder": "no",
+        "multiline": "no",
+        "multilineDelta": "0",
+        "matchall": "no",
+        "filter": "no",
+        "fireLength": "0",
+        "highlight": "no",
+        "highlightFG": "#ff0000",
+        "highlightBG": "#ffff00",
+        "patterns": [
+            {
+                "pattern": "^A grey wolf lets out a baying howl at (\\S+)\\.$",
+                "type": "regex"
+            }
+        ],
+        "script": "raiseEvent('iniquity', 'afflict', matches[2], 'hallucinations')"
+    },
+    {
+        "name": "badger Asthma",
+        "isActive": "yes",
+        "isFolder": "no",
+        "multiline": "no",
+        "multilineDelta": "0",
+        "matchall": "no",
+        "filter": "no",
+        "fireLength": "0",
+        "highlight": "no",
+        "highlightFG": "#ff0000",
+        "highlightBG": "#ffff00",
+        "patterns": [
+            {
+                "pattern": "^A grumpy badger lunges at (\\S+), claws raking across \\S+ throat\\.$",
+                "type": "regex"
+            }
+        ],
+        "script": "raiseEvent('iniquity', 'afflict', matches[2], 'asthma')"
+    }
+]

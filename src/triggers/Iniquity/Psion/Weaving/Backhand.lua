@@ -1,0 +1,1 @@
+raiseEvent("iniquity", "afflict_n", matches[2], "dizziness", "stupidity")

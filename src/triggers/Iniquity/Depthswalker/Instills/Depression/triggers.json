@@ -1,0 +1,72 @@
+[
+       {
+              "name": "Depression",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "yes",
+              "multilineDelta": "1",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "3",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "As the weapon strikes",
+                            "type": "startOfLine"
+                     },
+                     {
+                            "pattern": "^As the weapon strikes (\\S+), it burns with a sickly yellow glow\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict', multimatches[2][2], 'depression', 'nausea', 'hypochondria')",
+              "children": [
+                     {
+                            "name": "Depression Looping",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "no",
+                            "multilineDelta": "4",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "^A grey miasma flares around (\\S+)\\.$",
+                                          "type": "regex"
+                                   }
+                            ],
+                            "script": "raiseEvent('iniquity', 'afflict', matches[2], 'depression', 'nausea', 'hypochondria')"
+                     }
+              ]
+       },
+       {
+              "name": "Depression All",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "yes",
+              "multilineDelta": "1",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "A look of total despair crosses the face of",
+                            "type": "startOfLine"
+                     },
+                     {
+                            "pattern": "^A look of total despair crosses the face of (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict_n', multimatches[2][2], 'depression', 'nausea', 'hypochondria', 'anorexia', 'masochism')"
+       }
+]

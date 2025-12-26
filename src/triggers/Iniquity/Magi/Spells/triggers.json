@@ -1,0 +1,122 @@
+[
+       {
+              "name": "Bombard 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^The air thrums about \\S+ as a flurry of rocks materialise to bombard (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Freeze 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^\\S+ raises a hand towards (\\S+) and blasts \\S+ with cold, frigid air\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Mudslide 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^\\S+ weaves earth and water and a torrent of thick mud thunders forth to roll over (\\S+), knocking \\S+ sprawling\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Fulminate 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^\\S+ clicks \\S+ fingers and a bolt of lightning strikes from the air in a fulminous flash to transfix (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Dehydrate 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^The skin of (\\S+) begins to dry and crack as \\S+ grows pale\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Magma 3p",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^\\S+ weaves fire and earth in a complex pattern and bubbling magma boils into existence in a searing tide to crash down upon (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       }
+]

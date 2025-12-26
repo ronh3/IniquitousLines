@@ -1,0 +1,68 @@
+[
+       {
+              "name": "Madness",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "yes",
+              "multilineDelta": "1",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "4",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "As the weapon strikes",
+                            "type": "startOfLine"
+                     },
+                     {
+                            "pattern": "^As the weapon strikes (\\S+), \\S+ face grows vacant and \\S+ begins to tremble\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict', multimatches[2][2], 'shadowmadness', 'vertigo', 'hallucinations')",
+              "children": [
+                     {
+                            "name": "Madness Loop",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "yes",
+                            "multilineDelta": "3",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "^A grey miasma flares around (\\S+)\\.$",
+                                          "type": "regex"
+                                   }
+                            ],
+                            "script": "raiseEvent('iniquity', 'afflict', matches[2], 'shadowmadness', 'vertigo', 'hallucinations')"
+                     }
+              ]
+       },
+       {
+              "name": "Madness All",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multielineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^The head of (\\S+) snaps back as if struck and \\S+ eyes roll madly\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict_n', matches[2], 'shadowmadness', 'vertigo', 'hallucinations')"
+       }
+]

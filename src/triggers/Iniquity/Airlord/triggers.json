@@ -1,0 +1,162 @@
+[
+       {
+              "name": "Gale Shield Down",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^The protective shield surrounding (\\S+) is blown away by the gale-force winds\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'manaleech')"
+       },
+       {
+              "name": "Scour Relapse",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A howling wind sweeps over (\\S+), ripping flesh from bone and leaving \\S+ face a bloody ruin\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'disloyalty')"
+       },
+       {
+              "name": "Scour Relapse 2",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^The ruined face of (\\S+) continues to bleed\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'disloyalty')"
+       },
+       {
+              "name": "Strangle Relapse",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\S+) clutches at \\S+ throat, eyes bulging as \\S+ struggles to draw breath\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'deadening)"
+       },
+       {
+              "name": "Strangle Relapse 2",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A dazed look crosses the face of (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict_n', matches[2], 'deadening', 'disrupted')"
+       },
+       {
+              "name": "Zephyr Relapse",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A zephyr of icy wind rolls over (\\S+), leaving \\S+ diminished\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'manaleech')"
+       },
+       {
+              "name": "Zephyr Relapse 2",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A vacant expression creeps across the features of (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict_n', matches[2], 'deadening', 'manaleech')"
+       },
+       {
+              "name": "Zephyr Relapse 3",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A completely blank expression descends upon (\\S+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "raiseEvent('iniquity', 'afflict_n', matches[2], 'deadening', 'manaleech')"
+       }
+]
