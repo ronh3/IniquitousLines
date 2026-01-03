@@ -14,7 +14,7 @@
             "type":"startOfLine"
           },
           {
-            "pattern":"(\\S+) says, \"Afflicting (\\S+) with (.+)\\.\"$",
+            "pattern":"(?<caller>\\S+) says, \"Afflicting (?<victim>\\S+) with (?<affs>.+)\\.\"$",
             "type":"regex"
           }
         ],
@@ -24,51 +24,51 @@
             "fireLength": "99",
             "patterns":[
               {
-                "pattern":"^(\\S+) swings .+ at (\\S+).+with all (\\S+) might\\.$",
+                "pattern":"^(?<caller>\\S+) swings .+ at (?<victim>\\S+).+with all \\S+ might\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^(\\S+) slashes into (\\S+).+with .+\\.$",
+                "pattern":"^(?<caller>\\S+) slashes into (?<victim>\\S+).+with .+\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^Lightning-quick, (\\S+) jabs (\\S+).+with.+\\.$",
+                "pattern":"^Lightning-quick, (?<caller>\\S+) jabs (?<victim>\\S+).+with.+\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^Lunging forward with long, flashing claws extended, (\\S+) tears into (\\S+) ruthlessly\\.$",
+                "pattern":"^Lunging forward with long, flashing claws extended, (?<caller>\\S+) tears into (?<victim>\\S+) ruthlessly\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^(\\S+) lunges at (\\S+) with long, flashing claws extended, tearing into.+ ruthlessly\\.$",
+                "pattern":"^(?<caller>\\S+) lunges at (?<victim>\\S+) with long, flashing claws extended, tearing into.+ ruthlessly\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^(\\S+) rips into (\\S+) with massive, deadly claws\\.$",
+                "pattern":"^(?<caller>\\S+) rips into (?<victim>\\S+) with massive, deadly claws\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^(\\S+) quickly pricks (\\S+) with \\S+ dirk\\.$",
+                "pattern":"^(?<caller>\\S+) quickly pricks (?<victim>\\S+) with \\S+ dirk\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^(\\S+) follows up the first attack with another, \\S+ dirk piercing the flesh of (\\S+)\\.$",
+                "pattern":"^(?<caller>\\S+) follows up the first attack with another, \\S+ dirk piercing the flesh of (?<victim>\\S+)\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^(\\S+) snaps \\S+ wrist in a practiced motion, bringing .+ back around to strike at (\\S+) a second time\\.$",
+                "pattern":"^(?<caller>\\S+) snaps \\S+ wrist in a practiced motion, bringing .+ back around to strike at (?<victim>\\S+) a second time\\.$",
                 "type":"regex" 
               },
               {
-                "pattern":"^(\\S+) sinks \\w+ fangs into (\\S+)'s body\\.$",
+                "pattern":"^(?<caller>\\S+) sinks \\S+ fangs into (?<victim>\\S+)'s body\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^(\\S+) points an imperious finger at (\\S+)\\.$",
+                "pattern":"^(?<caller>\\S+) points an imperious finger at (?<victim>\\S+)\\.$",
                 "type":"regex"
               },
               {
-                "pattern":"^(\\S+) stares at (\\S+), giving \\S+ the evil eye\\.$",
+                "pattern":"^(?<caller>\\S+) stares at (?<victim>\\S+), giving \\S+ the evil eye\\.$",
                 "type":"regex"
               }
             ],
