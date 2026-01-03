@@ -37,7 +37,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'paralysis')"
        },
        {
               "name": "Earth 3 3p",
@@ -57,7 +57,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'crackedribs')"
        },
        {
               "name": "Air 1 3p",
@@ -77,7 +77,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'asthma')"
        },
        {
               "name": "Air 2 3p",
@@ -97,7 +97,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'sensitivity')"
        },
        {
               "name": "Air 3 3p",
@@ -117,7 +117,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'healthleech')"
        },
        {
               "name": "Fire 2 3p",
@@ -137,7 +137,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'scalded', 'burning')"
        },
        {
               "name": "Fire 3 3p",
@@ -157,7 +157,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'blistered', 'burning')"
        },
        {
               "name": "Water 1p 3p",
@@ -177,7 +177,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'frostbite')"
        },
        {
               "name": "Water 2 3p",
@@ -197,7 +197,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'stuttering')"
        },
        {
               "name": "Water 3 3p",
@@ -217,6 +217,6 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'anorexia')"
        }
 ]

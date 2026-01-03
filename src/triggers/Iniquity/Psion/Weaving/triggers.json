@@ -17,7 +17,7 @@
                        "type": "regex"
                 }
          ],
-         "script": ""
+         "script": "raiseEvent('iniquity', 'afflict_n', matches[2], 'dizziness', 'stupidity')"
   },
   {
          "name": "Deathblow",
@@ -37,7 +37,7 @@
                        "type": "regex"
                 }
          ],
-         "script": ""
+         "script": "raiseEvent('iniquity', 'afflict', matches[2], 'asthma')"
   },
   {
          "name": "Exsanguinate",
@@ -57,7 +57,7 @@
                        "type": "regex"
                 }
          ],
-         "script": ""
+         "script": "raiseEvent('iniquity', 'afflict', matches[2], 'nausea')"
   },
   {
          "name": "Puncture",
@@ -77,7 +77,7 @@
                        "type": "regex"
                 }
          ],
-         "script": ""
+         "script": "raiseEvent('iniquity', 'afflict', matches[2], 'weariness')"
   },
   {
        "name": "Overhand",
@@ -97,7 +97,7 @@
                      "type": "regex"
               }
        ],
-       "script": ""
+       "script": "raiseEvent('iniquity', 'afflict_n', matches[2], 'stupidity', 'impatience')"
   },
   {
        "name": "Sever",
@@ -117,6 +117,6 @@
                      "type": "regex"
               }
        ],
-       "script": ""
+       "script": "raiseEvent('iniquity', 'afflict', matches[2], 'clumsiness')"
 }
 ]

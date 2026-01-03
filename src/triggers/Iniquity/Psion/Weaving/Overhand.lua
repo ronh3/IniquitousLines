@@ -1,1 +1,0 @@
-raiseEvent("iniquity", "afflict_n", matches[2], "stupidity", "impatience")

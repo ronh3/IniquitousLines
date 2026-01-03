@@ -17,7 +17,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'clumsiness')"
        },
        {
               "name": "Freeze 3p",
@@ -37,7 +37,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'frozen')"
        },
        {
               "name": "Mudslide 3p",
@@ -57,7 +57,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'slickness')"
        },
        {
               "name": "Fulminate 3p",
@@ -77,7 +77,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'fulminated', 'epilepsy', 'paralysis')"
        },
        {
               "name": "Dehydrate 3p",
@@ -97,7 +97,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict_n', matches[2], 'weariness', 'nausea')"
        },
        {
               "name": "Magma 3p",
@@ -117,6 +117,6 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'scalded')"
        }
 ]

@@ -17,7 +17,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'clumsiness')"
        },
        {
               "name": "Hailstone (epilepsy)",
@@ -37,10 +37,10 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'epilepsy')"
        },
        {
-              "name": "Hailstone (imaptience)",
+              "name": "Hailstone (impatience)",
               "isActive": "yes",
               "isFolder": "no",
               "multiline": "no",
@@ -57,7 +57,7 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'impatience')"
        },
        {
               "name": "Waterspout",
@@ -77,6 +77,6 @@
                             "type": "regex"
                      }
               ],
-              "script": ""
+              "script": "raiseEvent('iniquity', 'afflict', matches[2], 'confusion', 'dizziness', 'vertigo')"
        }
 ]
